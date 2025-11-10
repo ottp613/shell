@@ -32,7 +32,7 @@ mkdir data
 # 2. Move the ./rawdata directory to ./data/raw
 mv ./rawdata ./data/raw
 # 3. List the contents of the ./data/raw directory
-ls -l ./data/raw
+ls ./data/raw
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
 mkdir ./data/processed/server_logs
 mkdir ./data/processed/user_logs
@@ -47,7 +47,7 @@ rm -r ./data/raw/*ipaddr*
 rm -r ./data/processed/user_logs
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 touch .data/inventory.txt
-ls -l ./data/processed
+ls ./data/processed
 
 ###########################################
 
