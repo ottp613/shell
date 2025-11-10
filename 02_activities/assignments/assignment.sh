@@ -44,7 +44,7 @@ scp ./data/raw/*event*.log ./data/processed/event_logs/
 rm -r ./data/raw/*ipaddr*
 rm -r ./data/processed/user_logs
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-touch .data/inventory.txt
+touch ./data/inventory.txt
 ls ./data/processed
 
 ###########################################
